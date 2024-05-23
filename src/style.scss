@@ -1,0 +1,45 @@
+// variables.scss
+$primary-color: #fe4e5e;
+$background-color: #fefefe;
+$padding: 124px;
+
+:export {
+  primaryColor: $primary-color;
+  backgroundColor: $background-color;
+  padding: $padding;
+}
+
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.oldclass {
+  background-color: rgb(66, 158, 47);
+  width: 300px;
+  height: 200px;
+  border: 2px solid red;
+}
+
+.newclass {
+  background-color: yellow;
+  width: 300px;
+  height: 200px;
+  border: 2px solid red;
+  // margin: auto;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+}
+
+.test {
+  background-color: #fe4e5e;
+}
+
+body {
+  background-color: rgb(122, 122, 166);
+}
