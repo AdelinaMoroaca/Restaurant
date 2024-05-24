@@ -1,7 +1,13 @@
 :export {
   primaryColor: #fe4e5e;
-  backgroundColor: #fefefe;
+  backgroundColor: #9c9c9c;
   padding: 124px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -9,26 +15,63 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("./img/card-2.jpeg");
+  background-size: cover;
+  background-repeat: repeat;
+}
+body header {
+  width: 100vw;
+  background-color: #9c9c9c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  width: 100vw;
+}
+body header nav li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+}
+body header nav li button {
+  background-color: transparent;
+  width: 120px;
+  height: 50px;
+  border: none;
+  text-transform: uppercase;
+  color: beige;
 }
 
 .oldclass {
-  background-color: rgb(66, 158, 47);
+  background-color: rgb(141, 186, 132);
   width: 300px;
   height: 200px;
   border: 2px solid red;
 }
 
 .newclass {
-  background-color: yellow;
+  width: 100vw;
+  background-color: blue;
+  border: 2px solid red;
+}
+
+.headerclass {
+  background-color: rgb(103, 48, 66);
   width: 300px;
   height: 200px;
   border: 2px solid red;
 }
 
-.test {
-  background-color: #fe4e5e;
-}
-
-body {
-  background-color: rgb(122, 122, 166);
+.oldclass {
+  background-color: rgb(141, 186, 132);
+  width: 300px;
+  height: 200px;
+  border: 2px solid red;
 }/*# sourceMappingURL=style.css.map */
