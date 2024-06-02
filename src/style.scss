@@ -18,81 +18,134 @@ $padding: 124px;
 }
 
 body{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url('./img/card-2.jpeg');
-  background-size: cover;
-  background-repeat: repeat;
-
-  & header{
-    width: 100vw;
-    background-color: #9c9c9c;
+  // min-height: 100vh;
+  // display: flex;
+  // flex-direction: column;
+  // background-image: url('./img/card-2.jpeg');
+  #content{
+    min-height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    background-image: url('./img/card-2.jpeg');
 
-    & nav{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: green;
-      width: 100vw;
+    // min-height: 100vh;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    // flex-grow: 1;
+    // padding: 10px 10%;
 
-      & li {
+    & #headerPage{
+      // padding: 10px 10%;
+      // background-color: #9c9c9c;
+      // display: flex;
+      // justify-content: space-between;
+      // align-items: center;
+ 
+
+  
+      & nav{
+        padding: 10px 10%;
+        background-color: #9c9c9c;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        background-color: rgb(0, 0, 0);
-        width: 100vw;
-      
-        & button {
-          background-color: transparent;
-          width: 120px;
-          height: 50px;
-          border: none;
-          text-transform: uppercase;
-          color: beige;
+
+        & img {
+        width: 200px;
+        height: 30px;
+        background-image: url('./img/card-2.jpeg');
+        background-size: cover;
+        }
+        // display: flex;
+        // justify-content: flex-end;
+        // align-items: center;
+        // background-color: green;
+        // width: 100vw;
+  
+        & li {
+          // display: flex;
+          // justify-content: space-between;
+          // align-items: center;
+
+          // background-color: rgb(151, 105, 105);
+          // width: 100vw;
+
+        
+          & button {
+            // background-color: transparent;
+            // border: none;
+            // text-transform: uppercase;
+            // color: beige;
+            // font-size: 2rem;
+          }
         }
       }
     }
- }
+    
+    & #mainSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        padding: 10px 10%;
+ 
+  
+      & div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+        padding: 2rem;
+        background-color: violet;
+        border: 1px solid red;
+        border-radius: 0.4rem;
+  
+
+        & h1{
+          font-size: 3rem;
+        }
+
+        & p{
+          font-size: 2rem;
+          text-align: justify;
+          font-style: italic;
+        }
+
+        & #cardFunFact{
+          font-size: 2rem;
+          text-align: justify;
+          font-style: italic;
+          color: #1a0ec1;
+        }
+
+        & #getFunFactBtn{
+          font-size: 1rem;
+          text-align: justify;
+          font-style: italic;
+          // color: #1a0ec1;
+          color: #fe4e5e;
+          background-color: #1a0ec1;
+          padding: 0.8rem 1rem;
+          border-radius: 2rem;
+          border: 1px solid black;
+        }
+      }
+    }
+  
+    & #footerPage{
+      background-color: #1a0ec1;
+      padding: 20px 30px;
+      display: flex;
+      justify-content: center;
+  
+      & button {
+        padding: 0.6rem;
+        font-size: 1rem;
+      }
+    }
+  }
 }
 
-
-.oldclass {
-  background-color: rgb(141, 186, 132);
-  width: 300px;
-  height: 200px;
-  border: 2px solid red;
-}
-
-.newclass {
-  //height: 40vh;
-  width: 100vw;
-  background-color: blue;
-  border: 2px solid red;
-  // margin: auto;
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
-}
-
-.headerclass {
-  background-color: rgb(103, 48, 66);
-  width: 300px;
-  height: 200px;
-  border: 2px solid red;
-  // margin: auto;
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
-}
-
-.oldclass {
-  background-color: rgb(141, 186, 132);
-  width: 300px;
-  height: 200px;
-  border: 2px solid red;
-}
